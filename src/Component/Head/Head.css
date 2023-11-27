@@ -1,0 +1,32 @@
+.main_logo{
+    width: 100%;
+}
+.navbar_color{
+    background-color: rgba(23, 23, 24, 0.089) !important;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    /* border-radius: 15px; */
+    /* border-radius: 1rem; */
+    border-bottom: 1px solid #c7bef3 ;
+  
+    /* box-shadow: 0 0 10px #9ecaed; */
+}
+.head_logo{
+    font-style: italic;
+}
+@media only screen and (max-width:600px) {
+    .main_logo{
+        width: 80%;
+    }
+    .navRescenter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+.navBrand{
+width: 15rem;
+}
